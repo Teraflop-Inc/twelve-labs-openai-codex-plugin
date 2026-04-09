@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "twelvelabs-mcp": {
+      "command": "npx",
+      "args": ["-y", "--package=twelvelabs-mcp", "twelvelabs-mcp-stdio"],
+      "env_vars": ["TWELVELABS_API_KEY"]
+    }
+  }
+}

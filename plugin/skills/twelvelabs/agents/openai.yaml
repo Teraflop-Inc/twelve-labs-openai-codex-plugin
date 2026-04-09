@@ -1,0 +1,6 @@
+interface:
+  display_name: "Twelve Labs"
+  short_description: "Video AI — search, analyze, index, embed"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  default_prompt: "Search my indexed videos or analyze a video for insights."

@@ -1,0 +1,35 @@
+{
+  "name": "twelvelabs",
+  "version": "0.1.0",
+  "description": "Search, analyze, and understand videos with Twelve Labs video AI",
+  "author": {
+    "name": "Twelve Labs",
+    "url": "https://twelvelabs.io"
+  },
+  "homepage": "https://docs.twelvelabs.io",
+  "repository": "https://github.com/twelvelabs-io/twelvelabs-codex-plugin",
+  "license": "MIT",
+  "keywords": ["video", "search", "ai", "embeddings", "analysis", "twelve-labs"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Twelve Labs",
+    "shortDescription": "Search, analyze, and understand videos with AI",
+    "longDescription": "Twelve Labs is a video AI platform. Index videos, search them with natural language, analyze content for summaries and chapters, generate multimodal embeddings, and recognize specific people or objects with entity search.",
+    "developerName": "Twelve Labs",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://twelvelabs.io",
+    "privacyPolicyURL": "https://twelvelabs.io/privacy",
+    "termsOfServiceURL": "https://twelvelabs.io/terms",
+    "defaultPrompt": [
+      "Search my videos for a specific scene or moment",
+      "Analyze a video and generate a summary with chapters",
+      "Index a new video from a URL"
+    ],
+    "brandColor": "#6366F1",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}
